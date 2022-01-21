@@ -1,0 +1,2 @@
+# MayaTool
+AutoRigger
