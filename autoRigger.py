@@ -1,6 +1,6 @@
 import maya.cmds as cmds
 
-
+newWindow = "Auto Rigger"
 
 
 def main():
