@@ -1,6 +1,6 @@
 import maya.cmds as cmds
-
 newWindow = "Auto Rigger"
+
 
 
 def main():
@@ -22,7 +22,7 @@ def UI():
     cmds.scrollLayout("scroll")
     cmds.frameLayout(l="Initial Setup", cll=True)
     cmds.columnLayout()
-
+    cmds.colorSliderGrp(label='Blue', rgb=(0, 0, 1))
     # cmds.text(l="No of Spine Joints")
     # spineCnt = cmds.intSliderGrp(minValue=1, maxValue=10, value=4)
     spineCnt = cmds.intSliderGrp(l="No of Spines", minValue=1, maxValue=10, value=4, step=1, field=True)
